@@ -18,6 +18,15 @@ console.log("database connected Successfully ", db.connect.name);
 //  - Checking databases
 // console.log(await db.execute(`show databases`)); SHOE DATABASES
 
+// await db.execute(`create table stores (
+//         id int auto_increment primary key,
+//         storeName varchar(100) not null,
+//         storeAddress varchar(100) not null,
+//         storeEmail varchar(100) not null unique,
+//         rating int default 0
+//     )`)
+
+
 //  - Creating Table
 // await db.execute(`
 //     create table users (
